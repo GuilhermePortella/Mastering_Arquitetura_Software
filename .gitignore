@@ -1,0 +1,59 @@
+# ===== Java / Build =====
+*.class
+*.log
+
+# Maven
+target/
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+build/
+
+# Common build outputs
+out/
+bin/
+
+# ===== IDEs and Editors =====
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ===== OS / File System =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# Linux / common temp files
+*~
+*.swp
+*.swo
